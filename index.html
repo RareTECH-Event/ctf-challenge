@@ -3,23 +3,33 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>SNS管理者ページ - ログイン</title>
+  <title>ログイン</title>
   <link rel="stylesheet" href="style.css">
+  <!-- test.jsを読み込み -->
+  <script src="function.js"></script>
+  <style>
+
+  </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>社内SNS管理システム</h1>
+    <h1>ログインページ</h1>
+
     <div class="card">
-      <p>メンテナンス中です。ログインはできません。</p>
-      <input type="text" placeholder="ユーザーID" disabled>
-      <input type="password" placeholder="パスワード" disabled>
-      <button class="btn">LOGIN</button>
+
+      <span>ユーザーID</span>
+      <input type="text" id="login_form" placeholder="">
+
+
+      <span>パスワード</span>
+      <input type="text" id="password_form" placeholder="">
+
+      <button class="btn" onclick="submitFeedback()">ログイン</button>
     </div>
+
+    <!-- FLAG{html_source_check_ok} -->
   </div>
-
-  <!-- FLAG{html_source_check_ok} -->
-
 </body>
 
 </html>
