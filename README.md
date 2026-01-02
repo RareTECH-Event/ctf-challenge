@@ -2,11 +2,13 @@
 
 ## 遊び方
 
-1. このフォルダにある `index.html` を、普段使っているブラウザ（Chrome や Edge など）にドラッグ＆ドロップしてください。
+1. 「Code」をクリックし、メニュー内の「Download ZIP」をクリック。(添付画像参照)
+<img width="492" height="365" alt="image" src="https://github.com/user-attachments/assets/ea8b4975-0fb9-405c-9e27-2bc1cbbd0353" />
+2. ダウンロードされた「ctf-challenge-main.zip」を解凍する。
+2. ctf-challenge-mainにある `index.html` を、普段使っているブラウザ（Chrome や Edge など）にドラッグ＆ドロップ。
 2. 画面が表示されたら、そこから探索開始です！
 
 ## フラグの形式
-
 `FLAG{文字列}` という形式を探してください。
 
 ## 問題
